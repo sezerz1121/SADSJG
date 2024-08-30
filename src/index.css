@@ -351,7 +351,7 @@ align-items: center;
 {
  
 margin-top: 10px;
-background-color:#088178;
+background-color: #3AA4A4;
 padding: 20px 10px;
 display: flex;
 width: 90%;
@@ -489,7 +489,7 @@ margin-bottom: 10px;
 .ContentTitleDiv
 {
 width: 100%;
-background-color: #088178;
+background-color: #3AA4A4;
 height: 50px;
 display: flex;
 align-items: center;
@@ -506,6 +506,7 @@ margin-bottom:2% ;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .ContentDivInnerTitle
 {
@@ -529,7 +530,7 @@ margin-top: 20px;
   }
 .SubmitInqury
 {
-  background-color: #088178;
+  background-color: #3AA4A4;
 color: white;
 border: none;
 outline: none;
@@ -948,7 +949,7 @@ width: 80%;
 .ContentTitleDiv
 {
 width: 100%;
-background-color: #088178;
+background-color: #3AA4A4;
 height: 25px;
 display: flex;
 align-items: center;
@@ -966,6 +967,7 @@ margin-top:2% ;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-bottom:2% 
 }
 .ContentDivInnerTitle
@@ -991,7 +993,7 @@ margin-top: 20px;
   }
 .SubmitInqury
 {
-  background-color: #088178;
+  background-color: #3AA4A4;
 color: white;
 border: none;
 outline: none;
@@ -1391,7 +1393,7 @@ width: 80%;
 .ContentTitleDiv
 {
 width: 100%;
-background-color: #088178;
+background-color: #3AA4A4;
 height: 25px;
 display: flex;
 align-items: center;
@@ -1409,6 +1411,7 @@ margin-top:2% ;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-bottom:2% 
 }
 .ContentDivInnerTitle
@@ -1434,7 +1437,7 @@ margin-top: 20px;
   }
 .SubmitInqury
 {
-  background-color: #088178;
+  background-color: #3AA4A4;
 color: white;
 border: none;
 outline: none;
