@@ -3,7 +3,8 @@ import LandingPage from './LandingPage.jsx';
 import Login from './Login.jsx';
 import CreateAccount from './CreateAccount.jsx';
 import FamilyForm from './FamilyForm.jsx';
-import HomePage from './HomePage.jsx';
+
+import HomePage2 from './HomePage2.jsx';
 function App() {
   
 
@@ -12,7 +13,7 @@ function App() {
     <Routes>
 
       <Route path="/" element={<LandingPage/>} />
-      <Route path="/home" element={<HomePage/>} />
+      <Route path="/home" element={<HomePage2/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/create" element={<CreateAccount/>} />
       <Route path="/createfamily" element={<FamilyForm/>} />

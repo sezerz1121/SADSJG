@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-const HomePage = () => {
+const HomePage2 = () => {
     const navigate =useNavigate();
     const handleCreateFamily = () => {
         navigate("/createfamily");
@@ -51,32 +51,23 @@ const HomePage = () => {
                         <div className="link">ADD AREA MASTER</div>
                     </div>
 
-                    <div className="main-hero">
-                        <div className="main-table">
-                            <div className="table">
-                                <span>Welcome, Here</span>
-                            </div>
-                            <div className="table-line">
-                                <span>If you have any query, Tell us</span>
-                                <div className="submit">
-                                    <input type="text" placeholder="Type Here" />
-                                    <button>Submit</button>
+                    <div className='content'>
+                            <div className='innerContent'>
+                                <div className='ContentTitleDiv'>Welcome , here</div>
+                                <div className='ContentDiv'>
+                                <span className='ContentDivInnerTitle'>If you have any query, Tell us</span>
+                                <div className="Inqury">
+                                    <input type="text" placeholder="Type Here" className='InquryInput'/>
+                                    <button className='SubmitInqury'>Submit</button>
+                                </div>
                                 </div>
                             </div>
-                            
-                        </div>
-                        <div className="main-table">
-                            <div className="table">
-                                <span>NEWS</span>
+                            <div className='innerContent'>
+                            <div className='ContentTitleDiv'> News</div>
+                            <div className='ContentDiv'>
+                            <span className='ContentDivInnerTitle'>NEWS CONTENT</span>
                             </div>
-                            <div className="table-line">
-                            
-                                <div className="submit">
-                                <div className='content'>news content</div>
-                                </div>
                             </div>
-                            
-                        </div>
                     </div>
                 </div>
             </div>
@@ -84,4 +75,4 @@ const HomePage = () => {
     );
 }
 
-export default HomePage;
+export default HomePage2;

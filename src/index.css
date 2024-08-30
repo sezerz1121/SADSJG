@@ -460,12 +460,83 @@ width: 40%;
 }
 
 
+
 .main-hero .hero-img img{
 
 height: auto;
 width: 90%;
 margin-bottom: 10px;
 } 
+
+/*new try*/
+.content
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.innerContent
+{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContentTitleDiv
+{
+width: 100%;
+background-color: #088178;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 24px;
+margin-bottom:2% ;
+}
+.ContentDiv
+{
+  height: 50%;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.306);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ContentDivInnerTitle
+{
+  font-size: 20px;
+  margin-top: 2%;
+}
+.Inqury
+{
+display: flex;
+margin-top: 20px;
+}
+.InquryInput
+{
+  
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: rgb(210, 209, 209);
+  border: none;
+  outline: none;
+  height:25px ;
+  }
+.SubmitInqury
+{
+  background-color: #088178;
+color: white;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+
+
 @media (max-width: 320px) {
   .LandingPageImage {
     height: 100%;
@@ -855,11 +926,81 @@ width: 80%;
     border: none;
     outline: none;
     }
-
+/*new try*/
+.content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.innerContent
+{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContentTitleDiv
+{
+width: 100%;
+background-color: #088178;
+height: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 16px;
+margin-bottom:2% ;
+margin-top:2% ;
+}
+.ContentDiv
+{
+  height: 80%;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.306);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:2% 
+}
+.ContentDivInnerTitle
+{
+  font-size: 10px;
+  margin-top: 2%;
+}
+.Inqury
+{
+display: flex;
+margin-top: 20px;
+}
+.InquryInput
+{
+  
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: rgb(210, 209, 209);
+  border: none;
+  outline: none;
+  height:16px ;
+  
+  }
+.SubmitInqury
+{
+  background-color: #088178;
+color: white;
+border: none;
+outline: none;
+border-radius: 5px;
+}
 
 }
 /* For devices between 375px and 576px */
-@media (min-width: 360px) and (max-width: 767px) {
+@media (min-width: 326px) and (max-width: 767px) {
   .LandingPageImage {
     height: 100%;
     width: 100%;
@@ -1220,6 +1361,86 @@ width: 80%;
     align-items: center;
     padding: 5px 0;
     }
+
+    .main-hero .main-table .table-line{
+
+      height: 80vh;
+      border: 2px solid rgba(0, 0, 0, 0.306);
+      margin-top: 10px;
+      }
+
+    /*new try*/
+.content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.innerContent
+{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContentTitleDiv
+{
+width: 100%;
+background-color: #088178;
+height: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 16px;
+margin-bottom:2% ;
+margin-top:2% ;
+}
+.ContentDiv
+{
+  height: 80%;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.306);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:2% 
+}
+.ContentDivInnerTitle
+{
+  font-size: 10px;
+  margin-top: 2%;
+}
+.Inqury
+{
+display: flex;
+margin-top: 20px;
+}
+.InquryInput
+{
+  
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: rgb(210, 209, 209);
+  border: none;
+  outline: none;
+  height:16px ;
+  
+  }
+.SubmitInqury
+{
+  background-color: #088178;
+color: white;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+
 }
 
 
