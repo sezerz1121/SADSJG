@@ -1,0 +1,962 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#root
+{
+  margin: 0;
+  padding: 0;
+}
+.LandingPage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.LandingPageImage {
+  height: 100%;
+  width: 40%;
+  z-index: -1;
+}
+
+.button1 {
+  margin-top: 280px;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3AA4A4;
+  border-radius: 16px;
+  color: white;
+  cursor: pointer;
+}
+.button2 {
+  margin-top: 25px;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3AA4A4;
+  border-radius: 16px;
+  color: white;
+  cursor: pointer;
+}
+.emailInput
+{
+  margin-top: 350px;
+  display: flex;
+  background-color: #3AA4A4;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 16px;
+  padding-left: 25px;
+
+}
+.emailInput::placeholder {
+  color: white;
+}
+
+.emailInput:focus
+{
+outline: none;
+
+}
+.passwordInput
+{
+  margin-top: 25px;
+  display: flex;
+  background-color: #3AA4A4;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 16px;
+  padding-left: 25px;
+
+}
+.passwordInput::placeholder {
+  color: white;
+}
+.passwordInput:focus
+{
+outline: none;
+
+}
+
+.buttonLogin
+{
+  margin-top: 25px;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3AA4A4;
+  border-radius: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.FamilyForm
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.NavBarFamilyPage
+{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.navbarTitle
+{
+  font-weight: 700;
+  font-size: 32px;
+  padding-left:35%
+}
+.navbarlogout
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:100px ;
+  font-size: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.FamilyFormDiv
+{
+  margin-top: 25px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+.inputField1
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 120px;
+  width: 100%;
+  padding-right: 128%;
+  height: 50px;
+  align-items: center;
+}
+.inputField2
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 128%;
+  
+}
+.inputField22
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 132%;
+  
+}
+.inputField23
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 151%;
+  
+}
+.inputFieldinner
+{
+  margin-right: 15px;
+}
+.inputBox
+{
+  height:30px;
+  width: 12%;
+  border-radius: 6px;
+}
+.TitlePERSONALDETAILS
+{
+  margin-top: 50px;
+  border-bottom:1px solid gray;
+  border-top:1px solid gray;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #3AA4A4;
+  color:white;
+
+}
+.SubmitButton
+{
+  margin: 60px;
+  background-color: #3AA4A4;
+  height: 200px;
+  width: 180px;
+  border-radius: 16px;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+.SubmitButton:hover
+{
+  margin: 60px;
+  background-color: white;
+  height: 220px;
+  width: 180px;
+  border-radius: 16px;
+ font-size: 24px;
+ color: #3AA4A4;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3AA4A4;
+  cursor: pointer;
+
+}
+.subNavbar
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3AA4A4;
+  color: white;
+  width: 100%;
+  height: 100px;
+  font-size: 24px;
+
+}
+
+/* For devices between 375px and 576px */
+@media (min-width: 375px) and (max-width: 767px) {
+  .LandingPageImage {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .button1 {
+    margin-top: 280px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .button2 {
+    margin-top: 25px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .emailInput
+{
+  margin-top: 300px;
+  display: flex;
+  background-color: #3AA4A4;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 16px;
+  padding-left: 15px;
+
+}
+.emailInput::placeholder {
+  color: white;
+}
+
+.emailInput:focus
+{
+outline: none;
+
+}
+.passwordInput
+{
+  margin-top: 10px;
+  display: flex;
+  background-color: #3AA4A4;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 16px;
+  padding-left: 15px;
+
+}
+.passwordInput::placeholder {
+  color: white;
+}
+.passwordInput:focus
+{
+outline: none;
+
+}
+
+.buttonLogin
+{
+  margin-top: 15px;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3AA4A4;
+  border-radius: 16px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+
+.NavBarFamilyPage
+{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.navImage
+{
+  height: 100%;
+}
+.navbarTitle
+{
+  font-weight: 700;
+  font-size:8px;
+}
+.navbarlogout
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:50px ;
+  font-size: 8px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+.inputField1
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 120px;
+  width: 100%;
+  padding-right: 10%;
+}
+.inputField2
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 10%;
+  
+}
+.inputField22
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 1%;
+  
+}
+.inputField23
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 80%;
+  
+}
+.inputFieldinner
+{
+  margin-right: 15px;
+}
+.inputBox
+{
+  height:15px;
+  width: 40%;
+  border-radius: 6px;
+}
+.TitlePERSONALDETAILS
+{
+  margin-top: 50px;
+  border-bottom:1px solid gray;
+  border-top:1px solid gray;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+.SubmitButton
+{
+  margin: 60px;
+  background-color: #3AA4A4;
+  height: 200px;
+  width: 180px;
+  border-radius: 16px;
+ font-size: 24px;
+ color: white;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.SubmitButton:hover
+{
+  margin: 60px;
+  background-color: white;
+  height: 220px;
+  width: 180px;
+  border-radius: 16px;
+ font-size: 24px;
+ color: #3AA4A4;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3AA4A4;
+  cursor: pointer;
+
+}
+.subNavbar
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3AA4A4;
+  color: white;
+  width: 100%;
+  font-size: 10px;
+  height: 75px;
+}
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .LandingPageImage {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  .button1 {
+    margin-top: 280px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    font-size :12px;
+  }
+  .button2 {
+    margin-top: 25px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .emailInput
+  {
+    margin-top: 350px;
+    display: flex;
+    background-color: #3AA4A4;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 16px;
+    padding-left: 15px;
+  
+  }
+  .emailInput::placeholder {
+    color: white;
+  }
+  
+  .emailInput:focus
+  {
+  outline: none;
+  
+  }
+  .passwordInput
+  {
+    margin-top: 15px;
+    display: flex;
+    background-color: #3AA4A4;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 16px;
+    padding-left: 15px;
+  
+  }
+  .passwordInput::placeholder {
+    color: white;
+  }
+  .passwordInput:focus
+  {
+  outline: none;
+  
+  }
+  
+  .buttonLogin
+  {
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+
+
+
+  .NavBarFamilyPage
+{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.navImage
+{
+  height: 100%;
+}
+.navbarTitle
+{
+  font-weight: 700;
+  font-size:12px;
+}
+.navbarlogout
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:75px ;
+  font-size: 12px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.inputField1
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 120px;
+  width: 100%;
+  padding-right: 80%;
+}
+.inputField2
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 80%;
+  
+}
+.inputField22
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 80%;
+  
+}
+.inputField23
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right:150%;
+  
+}
+.inputFieldinner
+{
+  margin-right: 15px;
+}
+.inputBox
+{
+  height:25px;
+  width: 40%;
+  border-radius: 6px;
+}
+.TitlePERSONALDETAILS
+{
+  margin-top: 50px;
+  border-bottom:1px solid gray;
+  border-top:1px solid gray;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+.SubmitButton
+{
+  margin: 60px;
+  background-color: #3AA4A4;
+  height: 200px;
+  width: 180px;
+  border-radius: 16px;
+ font-size: 24px;
+ color: white;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.SubmitButton:hover
+{
+  margin: 60px;
+  background-color: white;
+  height: 220px;
+  width: 180px;
+  border-radius: 16px;
+ font-size: 24px;
+ color: #3AA4A4;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3AA4A4;
+  cursor: pointer;
+
+}
+.subNavbar
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3AA4A4;
+  color: white;
+  width: 100%;
+  font-size: 10px;
+  height: 75px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .LandingPageImage {
+    height: 100%;
+    width: 40%;
+    z-index: -1;
+  }
+  
+  .button1 {
+    margin-top: 280px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  .button2 {
+    margin-top: 25px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  .emailInput
+  {
+    margin-top: 350px;
+    display: flex;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 16px;
+    padding-left: 25px;
+  
+  }
+  .emailInput::placeholder {
+    color: rgba(0, 0, 0, 0.664);
+  }
+  
+  .emailInput:focus
+  {
+  outline: none;
+  
+  }
+  .passwordInput
+  {
+    margin-top: 25px;
+    display: flex;
+    background-color: #3AA4A4;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 16px;
+    padding-left: 25px;
+  
+  }
+  .passwordInput::placeholder {
+    color: white;
+  }
+  .passwordInput:focus
+  {
+  outline: none;
+  
+  }
+  
+  .buttonLogin
+  {
+    margin-top: 25px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA4A4;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+
+  .NavBarFamilyPage
+{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.navbarTitle
+{
+  font-weight: 700;
+  font-size: 32px;
+}
+.navbarlogout
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:100px ;
+  font-size: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+
+
+
+.inputField1
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 120px;
+  width: 100%;
+  padding-right: 128%;
+  height: 50px;
+  align-items: center;
+}
+.inputField2
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 128%;
+  
+}
+.inputField22
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 132%;
+  
+}
+.inputField23
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 35px;
+  width: 100%;
+  padding-right: 151%;
+  
+}
+.inputFieldinner
+{
+  margin-right: 15px;
+}
+.inputBox
+{
+  height:30px;
+  width: 12%;
+  border-radius: 6px;
+}
+.TitlePERSONALDETAILS
+{
+  margin-top: 50px;
+  border-bottom:1px solid gray;
+  border-top:1px solid gray;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #3AA4A4;
+  color:white;
+
+}
+.SubmitButton
+{
+  margin: 60px;
+  background-color: #3AA4A4;
+  height: 200px;
+  width: 180px;
+  border-radius: 16px;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+.SubmitButton:hover
+{
+  margin: 60px;
+  background-color: white;
+  height: 220px;
+  width: 180px;
+  border-radius: 16px;
+ font-size: 24px;
+ color: #3AA4A4;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3AA4A4;
+  cursor: pointer;
+
+}
+.subNavbar
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3AA4A4;
+  color: white;
+  width: 100%;
+  height: 100px;
+  font-size: 24px;
+
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}
