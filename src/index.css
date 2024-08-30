@@ -849,10 +849,9 @@ width: 80%;
   }
   .main-hero .main-table .table-line .submit .content{
     padding: 5px 10px 5px 2.5px;
- 
+    margin-right: 5px;
     border-radius: 5px;
     width:60%;
-
     border: none;
     outline: none;
     }
@@ -1214,7 +1213,13 @@ width: 80%;
   border: none;
   outline: none;
   }
-  
+  .main-hero .main-table .table{
+    background-color: #088178;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    }
 }
 
 
