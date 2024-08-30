@@ -64,8 +64,8 @@ body {
 {
   margin-top: 350px;
   display: flex;
-  background-color: #3AA4A4;
-  color: white;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);
   border: none;
   height: 40px;
   width: 200px;
@@ -74,7 +74,7 @@ body {
 
 }
 .emailInput::placeholder {
-  color: white;
+  color: rgba(0, 0, 0, 0.664);
 }
 
 .emailInput:focus
@@ -86,8 +86,8 @@ outline: none;
 {
   margin-top: 25px;
   display: flex;
-  background-color: #3AA4A4;
-  color: white;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);
   border: none;
   height: 40px;
   width: 200px;
@@ -96,7 +96,7 @@ outline: none;
 
 }
 .passwordInput::placeholder {
-  color: white;
+  color: rgba(0, 0, 0, 0.664);
 }
 .passwordInput:focus
 {
@@ -112,9 +112,9 @@ outline: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3AA4A4;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);
   border-radius: 16px;
-  color: white;
   cursor: pointer;
 }
 
@@ -307,10 +307,10 @@ outline: none;
 
   .emailInput
 {
-  margin-top: 200px;
+  margin-top: 180px;
   display: flex;
-  background-color: #3AA4A4;
-  color: white;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);
   border: none;
   height: 15px;
   width: 75px;
@@ -319,7 +319,7 @@ outline: none;
 
 }
 .emailInput::placeholder {
-  color: white;
+  color: rgba(0, 0, 0, 0.664);
 }
 
 .emailInput:focus
@@ -331,8 +331,8 @@ outline: none;
 {
   margin-top: 10px;
   display: flex;
-  background-color: #3AA4A4;
-  color: white;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);
   border: none;
   height: 15px;
   width: 75px;
@@ -341,7 +341,7 @@ outline: none;
 
 }
 .passwordInput::placeholder {
-  color: white;
+  color: rgba(0, 0, 0, 0.664);
 }
 .passwordInput:focus
 {
@@ -357,9 +357,9 @@ outline: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3AA4A4;
+  color: rgba(0, 0, 0, 0.664);
   border-radius: 16px;
-  color: white;
+  border-radius: 16px;
   cursor: pointer;
   font-size: 12px;
 }
@@ -497,7 +497,7 @@ outline: none;
 }
 }
 /* For devices between 375px and 576px */
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .LandingPageImage {
     height: 100%;
     width: 100%;
@@ -534,11 +534,10 @@ outline: none;
 
   .emailInput
 {
-  margin-top: 300px;
+  margin-top: 240px;
   display: flex;
-  background-color: #3AA4A4;
-  color: white;
-  border: none;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);  border: none;
   height: 30px;
   width: 150px;
   border-radius: 16px;
@@ -546,7 +545,7 @@ outline: none;
 
 }
 .emailInput::placeholder {
-  color: white;
+  color: rgba(0, 0, 0, 0.664);
 }
 
 .emailInput:focus
@@ -558,8 +557,8 @@ outline: none;
 {
   margin-top: 10px;
   display: flex;
-  background-color: #3AA4A4;
-  color: white;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);
   border: none;
   height: 30px;
   width: 150px;
@@ -568,7 +567,7 @@ outline: none;
 
 }
 .passwordInput::placeholder {
-  color: white;
+  color: rgba(0, 0, 0, 0.664);
 }
 .passwordInput:focus
 {
@@ -584,9 +583,9 @@ outline: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3AA4A4;
+  background-color: #d0d0d091;
+  color: rgba(0, 0, 0, 0.664);
   border-radius: 16px;
-  color: white;
   cursor: pointer;
   font-size: 12px;
 }
@@ -763,8 +762,8 @@ outline: none;
   {
     margin-top: 350px;
     display: flex;
-    background-color: #3AA4A4;
-    color: white;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
     border: none;
     height: 30px;
     width: 200px;
@@ -773,7 +772,7 @@ outline: none;
   
   }
   .emailInput::placeholder {
-    color: white;
+    color: rgba(0, 0, 0, 0.664);
   }
   
   .emailInput:focus
@@ -785,8 +784,8 @@ outline: none;
   {
     margin-top: 15px;
     display: flex;
-    background-color: #3AA4A4;
-    color: white;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
     border: none;
     height: 30px;
     width: 200px;
@@ -795,7 +794,7 @@ outline: none;
   
   }
   .passwordInput::placeholder {
-    color: white;
+    color: rgba(0, 0, 0, 0.664);
   }
   .passwordInput:focus
   {
@@ -954,6 +953,64 @@ outline: none;
 }
 }
 @media (max-width: 835px)  and (min-width: 768px){
+
+
+  .emailInput
+  {
+    margin-top: 350px;
+    display: flex;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 16px;
+    padding-left: 25px;
+  
+  }
+  .emailInput::placeholder {
+    color: rgba(0, 0, 0, 0.664);
+  }
+  
+  .emailInput:focus
+  {
+  outline: none;
+  
+  }
+  .passwordInput
+  {
+    margin-top: 25px;
+    display: flex;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 16px;
+    padding-left: 25px;
+  
+  }
+  .passwordInput::placeholder {
+    color: rgba(0, 0, 0, 0.664);
+  }
+  .buttonLogin
+  {
+    margin-top: 25px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
+    border-radius: 16px;
+ 
+    cursor: pointer;
+  }
+
+
+
+
   .inputField1
 {
   display: flex;
@@ -1061,8 +1118,8 @@ outline: none;
   {
     margin-top: 25px;
     display: flex;
-    background-color: #3AA4A4;
-    color: white;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
     border: none;
     height: 40px;
     width: 200px;
@@ -1071,7 +1128,7 @@ outline: none;
   
   }
   .passwordInput::placeholder {
-    color: white;
+    color: rgba(0, 0, 0, 0.664);
   }
   .passwordInput:focus
   {
@@ -1087,9 +1144,10 @@ outline: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3AA4A4;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
     border-radius: 16px;
-    color: white;
+ 
     cursor: pointer;
   }
   
@@ -1231,6 +1289,65 @@ outline: none;
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 835px) {
+@media (min-width: 1020px) and (min-width: 1024px) {
+
+  .emailInput
+  {
+    margin-top: 300px;
+    display: flex;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 12px;
+    padding-left: 25px;
+  
+  }
+  .emailInput::placeholder {
+    color: rgba(0, 0, 0, 0.664);
+  }
+  
+  .emailInput:focus
+  {
+  outline: none;
+  
+  }
+  .passwordInput
+  {
+    margin-top: 25px;
+    display: flex;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 12px;
+    padding-left: 25px;
+  
+  }
+  .passwordInput::placeholder {
+    color: rgba(0, 0, 0, 0.664);
+  }
+  .passwordInput:focus
+  {
+  outline: none;
+  
+  }
+  
+  .buttonLogin
+  {
+    margin-top: 25px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0d0d091;
+    color: rgba(0, 0, 0, 0.664);
+    border-radius: 16px;
+ 
+    cursor: pointer;
+  }
   
 }
