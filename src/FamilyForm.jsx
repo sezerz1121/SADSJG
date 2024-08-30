@@ -1,6 +1,11 @@
 import React from 'react';
 import { MdLogout } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 const FamilyForm = () => {
+    const navigate =useNavigate();
+    const handleHome = () => {
+        navigate("/home");
+    };
     return (
         <>
             <div className='FamilyForm'>
@@ -9,7 +14,7 @@ const FamilyForm = () => {
                 <div className='navbarlogout'> <p>Log out</p><MdLogout /> </div>
              </div>
             <div className='subNavbar'>
-                <div>HOME</div>
+                <div onClick={handleHome}>HOME</div>
                 <div>ADD MEMBER</div>
                 <div>MEMBER LIST</div>
                 <div>ADD AREA MASTER</div>
